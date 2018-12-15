@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'RemotionHost' target in the 'RemotionHost' project
+//
+
+#define BUILD_TARGET_OSX 1

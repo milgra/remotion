@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+test -f RemotionHost.dmg && rm RemotionHost.dmg
+./create-dmg --window-size 512 512 --background ../DmgBackground.png --icon-size 96 --icon "RemotionHost.app" 150 240 --volname "Remotion Host" --app-drop-link 360 240 RemotionHost.dmg RemotionHost.app
